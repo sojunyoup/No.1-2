@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{b72c162e-fea3-4f52-a262-32157022c987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager">
+      <UniqueIdentifier>{860f662a-3b57-4974-8c85-17b399b031a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager\image">
+      <UniqueIdentifier>{a498fa3a-aa52-4f1a-bb72-48643fc0dbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager\scene">
+      <UniqueIdentifier>{c781af20-7ac6-4a0a-8137-73f546baac3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager\object">
+      <UniqueIdentifier>{87497638-c197-4480-84f7-2a338a83802c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager\camera">
+      <UniqueIdentifier>{245df98b-6912-49a2-b703-cf0ca82c3036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager\timer">
+      <UniqueIdentifier>{e6345187-b28c-4a74-867c-d0f93d491e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\manager\math">
+      <UniqueIdentifier>{21dc5359-ec5c-4ab9-b8df-15a334ade1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{79eaeea6-81f4-4d10-9521-73ed36195c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{dad31586-70fa-4da4-a634-a5b6a5f244cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{32eecd1e-a349-4bee-bea0-ff8a1cc2f01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Player">
+      <UniqueIdentifier>{d00735f3-edb5-4011-acbe-45fe3cb0b081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Boss">
+      <UniqueIdentifier>{1b024c55-0466-4730-a67a-a35417200382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\enemy">
+      <UniqueIdentifier>{53787709-893e-4ded-829f-7e720eb374a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="mainGame.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>main\manager\image</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>main\manager\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>main\manager\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>main\manager\object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>main\manager\object</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>main\manager\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>main\manager\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>main\manager\math</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>main\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Booss.cpp">
+      <Filter>Game\Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Game\Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Game\Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="OBullet.cpp">
+      <Filter>Game\Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMap.cpp" />
+    <ClCompile Include="ingameUi.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DieEffect.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageTwo.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeEnemy.cpp">
+      <Filter>Game\Object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="obj.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LastScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AllItem.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="mainGame.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>main\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>main\manager\image</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>main\manager\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>main\manager\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>main\manager\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>main\manager\object</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>main\manager\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>main\manager\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>main\manager\math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>main\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Booss.h">
+      <Filter>Game\Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Game\Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Game\Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="OBullet.h">
+      <Filter>Game\Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMap.h" />
+    <ClInclude Include="ingameUi.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DieEffect.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageTwo.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sizeEnemy.h">
+      <Filter>Game\Object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="obj.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LastScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AllItem.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

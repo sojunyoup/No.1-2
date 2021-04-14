@@ -1,0 +1,10 @@
+﻿  Player.cpp
+C:\Users\user\Desktop\EmptyProject\Player.cpp(7,14): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\EmptyProject\Player.cpp(12,14): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\EmptyProject\Player.cpp(13,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\EmptyProject\Player.cpp(14,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\EmptyProject\Player.cpp(132,3): warning C4458: 'i' 선언은 클래스 멤버를 숨깁니다.
+C:\Users\user\Desktop\EmptyProject\Player.h(9,6): message : 'Player::i' 선언을 참조하십시오.
+C:\Users\user\Desktop\EmptyProject\Player.cpp(133,4): warning C4458: 'j' 선언은 클래스 멤버를 숨깁니다.
+C:\Users\user\Desktop\EmptyProject\Player.h(9,13): message : 'Player::j' 선언을 참조하십시오.
+  EmptyProject_2010.vcxproj -> C:\Users\user\Desktop\EmptyProject\Debug\EmptyProject.exe
